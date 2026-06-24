@@ -1,23 +1,1654 @@
 [
   {
-    "pergunta": "Qual é a capital do Brasil?",
+    "pergunta": "O que caracteriza a computação em nuvem?",
     "respostas": [
-      "São Paulo",
-      "Rio de Janeiro",
-      "Brasília",
-      "Salvador"
+      "Uso exclusivo de computadores locais sem conexão à internet",
+      "Disponibilização de recursos computacionais sob demanda por meio da internet",
+      "Execução apenas de aplicações móveis",
+      "Armazenamento de dados exclusivamente em dispositivos físicos pessoais"
     ],
-    "correta": 2,
-    "correcao": "Brasília foi inaugurada em 1960 pelo presidente Juscelino Kubitschek e é a capital federal."
+    "correta": 1,
+    "correcao": "A computação em nuvem consiste na oferta de recursos computacionais, como servidores, armazenamento e aplicações, por meio da internet sob demanda."
   },
   {
-    "pergunta": "O que significa a sigla HTML?",
+    "pergunta": "Qual fator impulsionou o surgimento da computação em nuvem?",
     "respostas": [
-      "Hyper Text Markup Language",
-      "High Tech Modern Language",
-      "Hyperlink Text Management Language"
+      "Redução da capacidade de processamento dos computadores",
+      "Necessidade de compartilhar recursos e reduzir custos de infraestrutura",
+      "Eliminação das redes de computadores",
+      "Substituição dos sistemas operacionais"
+    ],
+    "correta": 1,
+    "correcao": "A computação em nuvem surgiu para otimizar o uso de recursos computacionais, aumentar a escalabilidade e reduzir custos operacionais."
+  },
+  {
+    "pergunta": "Qual tecnologia foi fundamental para a evolução da computação em nuvem?",
+    "respostas": [
+      "Virtualização",
+      "Impressão matricial",
+      "Memória ROM",
+      "Monitores CRT"
     ],
     "correta": 0,
-    "correcao": "HTML é a linguagem de marcação padrão para criar páginas web."
+    "correcao": "A virtualização permite executar múltiplos ambientes independentes em um mesmo hardware físico, sendo uma base essencial da computação em nuvem."
+  },
+  {
+    "pergunta": "Qual das alternativas representa uma vantagem da computação em nuvem?",
+    "respostas": [
+      "Necessidade de aquisição constante de hardware",
+      "Escalabilidade sob demanda",
+      "Dependência exclusiva de servidores locais",
+      "Impossibilidade de acesso remoto"
+    ],
+    "correta": 1,
+    "correcao": "A escalabilidade permite aumentar ou reduzir recursos computacionais conforme a necessidade da organização."
+  },
+  {
+    "pergunta": "Antes da popularização da computação em nuvem, as empresas geralmente utilizavam:",
+    "respostas": [
+      "Infraestrutura local (on-premises)",
+      "Serviços de streaming",
+      "Computação quântica",
+      "Blockchain"
+    ],
+    "correta": 0,
+    "correcao": "O modelo tradicional era baseado em infraestrutura própria, com servidores instalados e gerenciados pela própria organização."
+  },
+  {
+    "pergunta": "Qual característica da computação em nuvem permite o acesso aos recursos a partir de diferentes dispositivos?",
+    "respostas": [
+      "Acesso amplo à rede",
+      "Computação embarcada",
+      "Processamento local",
+      "Armazenamento removível"
+    ],
+    "correta": 0,
+    "correcao": "O acesso amplo à rede é uma característica essencial da nuvem, permitindo utilização por diferentes dispositivos conectados."
+  },
+  {
+    "pergunta": "Qual organização é amplamente reconhecida por definir características essenciais da computação em nuvem?",
+    "respostas": [
+      "NIST",
+      "UNESCO",
+      "IEEE 802.3",
+      "ABNT"
+    ],
+    "correta": 0,
+    "correcao": "O NIST (National Institute of Standards and Technology) publicou uma das definições mais utilizadas para computação em nuvem."
+  },
+  {
+    "pergunta": "O conceito de pagamento conforme o uso na computação em nuvem é conhecido como:",
+    "respostas": [
+      "Pay-as-you-go",
+      "Bring Your Own Device",
+      "Open Source",
+      "Peer-to-Peer"
+    ],
+    "correta": 0,
+    "correcao": "No modelo pay-as-you-go, o cliente paga apenas pelos recursos efetivamente consumidos."
+  },
+  {
+    "pergunta": "Qual cenário exemplifica adequadamente o uso da computação em nuvem?",
+    "respostas": [
+      "Armazenar arquivos apenas em um pen drive",
+      "Utilizar um serviço online para armazenar e compartilhar documentos",
+      "Executar programas sem sistema operacional",
+      "Desligar servidores para aumentar a disponibilidade"
+    ],
+    "correta": 1,
+    "correcao": "Serviços de armazenamento online são exemplos clássicos de utilização da computação em nuvem."
+  },
+  {
+    "pergunta": "A computação em nuvem é considerada um modelo que favorece principalmente:",
+    "respostas": [
+      "Rigidez na utilização dos recursos",
+      "Escalabilidade, flexibilidade e disponibilidade",
+      "Dependência de um único computador",
+      "Limitação do acesso remoto"
+    ],
+    "correta": 1,
+    "correcao": "Entre os principais benefícios da computação em nuvem estão a escalabilidade, a flexibilidade operacional e a alta disponibilidade dos serviços."
+  },
+   {
+    "pergunta": "Qual é a principal característica de uma nuvem pública?",
+    "respostas": [
+      "Infraestrutura dedicada exclusivamente a uma única organização",
+      "Infraestrutura compartilhada entre múltiplos clientes e disponibilizada pela internet",
+      "Infraestrutura sem acesso à internet",
+      "Infraestrutura instalada apenas em dispositivos móveis"
+    ],
+    "correta": 1,
+    "correcao": "A nuvem pública oferece recursos compartilhados entre diversos clientes, sendo acessada pela internet e gerenciada por um provedor de serviços."
+  },
+  {
+    "pergunta": "Uma organização que mantém sua infraestrutura de nuvem exclusivamente para uso interno está utilizando qual modelo?",
+    "respostas": [
+      "Nuvem pública",
+      "Nuvem híbrida",
+      "Nuvem privada",
+      "Nuvem comunitária"
+    ],
+    "correta": 2,
+    "correcao": "A nuvem privada é destinada ao uso exclusivo de uma organização, proporcionando maior controle sobre recursos e políticas de segurança."
+  },
+  {
+    "pergunta": "O modelo de nuvem híbrida é caracterizado por:",
+    "respostas": [
+      "Utilizar apenas servidores locais",
+      "Combinar recursos de nuvens públicas e privadas",
+      "Compartilhar infraestrutura entre empresas concorrentes",
+      "Eliminar completamente a necessidade de datacenters"
+    ],
+    "correta": 1,
+    "correcao": "A nuvem híbrida integra ambientes públicos e privados, permitindo que cargas de trabalho sejam distribuídas conforme a necessidade."
+  },
+  {
+    "pergunta": "Qual é uma vantagem comum da nuvem pública?",
+    "respostas": [
+      "Maior custo inicial de infraestrutura",
+      "Escalabilidade rápida e pagamento conforme o uso",
+      "Necessidade de gerenciamento completo do hardware pelo cliente",
+      "Ausência de conectividade com a internet"
+    ],
+    "correta": 1,
+    "correcao": "A nuvem pública permite escalabilidade sob demanda e normalmente utiliza o modelo de cobrança baseado no consumo."
+  },
+  {
+    "pergunta": "Qual é uma vantagem frequentemente associada à nuvem privada?",
+    "respostas": [
+      "Menor controle sobre os recursos",
+      "Compartilhamento obrigatório da infraestrutura",
+      "Maior controle e personalização do ambiente",
+      "Custos sempre inferiores aos da nuvem pública"
+    ],
+    "correta": 2,
+    "correcao": "A nuvem privada oferece maior controle administrativo, segurança e personalização dos recursos computacionais."
+  },
+  {
+    "pergunta": "Uma empresa que mantém dados sigilosos em uma nuvem privada e utiliza uma nuvem pública para absorver picos de demanda está adotando:",
+    "respostas": [
+      "Nuvem pública",
+      "Computação de borda",
+      "Nuvem híbrida",
+      "Grid computing"
+    ],
+    "correta": 2,
+    "correcao": "Esse é um exemplo clássico de nuvem híbrida, na qual diferentes ambientes são utilizados conforme requisitos de segurança e desempenho."
+  },
+  {
+    "pergunta": "Qual modelo de implantação costuma exigir maior investimento inicial da organização?",
+    "respostas": [
+      "Nuvem pública",
+      "Nuvem privada",
+      "Software como Serviço (SaaS)",
+      "Computação sem servidor"
+    ],
+    "correta": 1,
+    "correcao": "A nuvem privada geralmente requer aquisição e manutenção de infraestrutura própria, aumentando os custos iniciais."
+  },
+  {
+    "pergunta": "Qual alternativa descreve corretamente uma desvantagem potencial da nuvem pública?",
+    "respostas": [
+      "Menor controle direto sobre a infraestrutura física",
+      "Impossibilidade de escalabilidade",
+      "Ausência de acesso remoto",
+      "Necessidade obrigatória de datacenter próprio"
+    ],
+    "correta": 0,
+    "correcao": "Na nuvem pública, a infraestrutura é administrada pelo provedor, reduzindo o controle direto da organização sobre os recursos físicos."
+  },
+  {
+    "pergunta": "A capacidade de mover cargas de trabalho entre ambientes públicos e privados é uma característica associada a:",
+    "respostas": [
+      "Nuvem híbrida",
+      "Nuvem privada",
+      "Mainframes",
+      "Computação local"
+    ],
+    "correta": 0,
+    "correcao": "A integração entre ambientes distintos é uma das principais características da arquitetura de nuvem híbrida."
+  },
+  {
+    "pergunta": "Qual situação representa melhor o uso de uma nuvem pública?",
+    "respostas": [
+      "Uma empresa utiliza servidores próprios isolados em seu datacenter",
+      "Uma organização contrata serviços de armazenamento e processamento de um provedor acessados pela internet",
+      "Uma instituição mantém todos os sistemas desconectados de redes externas",
+      "Um usuário utiliza apenas armazenamento em dispositivos locais"
+    ],
+    "correta": 1,
+    "correcao": "A contratação de recursos computacionais fornecidos por terceiros via internet caracteriza o modelo de nuvem pública."
+  },
+    {
+    "pergunta": "Qual característica da computação em nuvem permite que um usuário solicite recursos computacionais sem interação humana direta com o provedor?",
+    "respostas": [
+      "Elasticidade rápida",
+      "Pool de recursos",
+      "Autoatendimento sob demanda",
+      "Serviço mensurável"
+    ],
+    "correta": 2,
+    "correcao": "O autoatendimento sob demanda permite que os usuários provisionem recursos como armazenamento e processamento de forma automática, sem necessidade de intervenção humana do provedor."
+  },
+  {
+    "pergunta": "A característica 'amplo acesso à rede' significa que:",
+    "respostas": [
+      "Os recursos podem ser acessados por diferentes dispositivos conectados à rede",
+      "Os recursos só podem ser acessados por computadores de mesa",
+      "O acesso é restrito a redes locais",
+      "Os serviços funcionam apenas em dispositivos móveis"
+    ],
+    "correta": 0,
+    "correcao": "O amplo acesso à rede permite que os serviços sejam acessados por diversos dispositivos, como computadores, smartphones e tablets."
+  },
+  {
+    "pergunta": "O conceito de Pool de Recursos refere-se a:",
+    "respostas": [
+      "Utilização exclusiva de um servidor para cada cliente",
+      "Compartilhamento de recursos computacionais entre múltiplos clientes",
+      "Uso de recursos apenas durante o horário comercial",
+      "Criação obrigatória de servidores físicos dedicados"
+    ],
+    "correta": 1,
+    "correcao": "No Pool de Recursos, os recursos físicos e virtuais são agrupados e compartilhados entre diferentes usuários de forma eficiente."
+  },
+  {
+    "pergunta": "Qual característica permite aumentar ou reduzir recursos computacionais rapidamente conforme a demanda?",
+    "respostas": [
+      "Amplo acesso à rede",
+      "Serviço mensurável",
+      "Elasticidade rápida",
+      "Virtualização"
+    ],
+    "correta": 2,
+    "correcao": "A elasticidade rápida possibilita adaptar a quantidade de recursos disponíveis de acordo com a necessidade do momento."
+  },
+  {
+    "pergunta": "Na computação em nuvem, o serviço mensurável permite:",
+    "respostas": [
+      "Eliminar a necessidade de monitoramento",
+      "Controlar e medir automaticamente o uso dos recursos",
+      "Restringir o acesso dos usuários",
+      "Substituir a virtualização"
+    ],
+    "correta": 1,
+    "correcao": "O serviço mensurável monitora o consumo de recursos, permitindo cobrança, auditoria e otimização do uso."
+  },
+  {
+    "pergunta": "Uma empresa aumenta automaticamente a capacidade de processamento durante uma promoção online e reduz após o término da campanha. Esse cenário exemplifica:",
+    "respostas": [
+      "Amplo acesso à rede",
+      "Elasticidade rápida",
+      "Pool de recursos",
+      "Autoatendimento sob demanda"
+    ],
+    "correta": 1,
+    "correcao": "A elasticidade rápida permite ajustar dinamicamente os recursos conforme a variação da demanda."
+  },
+  {
+    "pergunta": "Qual das alternativas representa um exemplo de autoatendimento sob demanda?",
+    "respostas": [
+      "Solicitar a criação de um servidor por meio de um portal e recebê-lo automaticamente",
+      "Aguardar semanas pela instalação de hardware físico",
+      "Enviar uma solicitação em papel ao setor de TI",
+      "Comprar um novo datacenter para cada projeto"
+    ],
+    "correta": 0,
+    "correcao": "O provisionamento automático de recursos através de interfaces de gerenciamento caracteriza o autoatendimento sob demanda."
+  },
+  {
+    "pergunta": "O compartilhamento de infraestrutura entre diversos clientes, mantendo isolamento lógico entre eles, está relacionado principalmente a:",
+    "respostas": [
+      "Serviço mensurável",
+      "Elasticidade rápida",
+      "Pool de recursos",
+      "Amplo acesso à rede"
+    ],
+    "correta": 2,
+    "correcao": "O Pool de Recursos permite que vários clientes utilizem a mesma infraestrutura física de forma segura e isolada."
+  },
+  {
+    "pergunta": "Qual característica da computação em nuvem está diretamente associada ao modelo de cobrança baseado no consumo?",
+    "respostas": [
+      "Amplo acesso à rede",
+      "Serviço mensurável",
+      "Pool de recursos",
+      "Elasticidade rápida"
+    ],
+    "correta": 1,
+    "correcao": "O serviço mensurável registra o consumo de recursos, possibilitando a cobrança proporcional à utilização."
+  },
+  {
+    "pergunta": "Segundo a definição do NIST, qual das alternativas NÃO é uma característica essencial da computação em nuvem?",
+    "respostas": [
+      "Autoatendimento sob demanda",
+      "Amplo acesso à rede",
+      "Servidores dedicados obrigatórios",
+      "Elasticidade rápida"
+    ],
+    "correta": 2,
+    "correcao": "Servidores dedicados obrigatórios não constituem uma característica essencial da computação em nuvem segundo o NIST."
+  },
+    {
+    "pergunta": "Qual é um dos principais desafios de segurança na adoção da computação em nuvem?",
+    "respostas": [
+      "Excesso de armazenamento físico",
+      "Proteção de dados contra acessos não autorizados",
+      "Ausência de conectividade com a internet",
+      "Limitação da capacidade de processamento"
+    ],
+    "correta": 1,
+    "correcao": "A proteção dos dados é uma das maiores preocupações na nuvem, exigindo mecanismos de autenticação, autorização e criptografia."
+  },
+  {
+    "pergunta": "No contexto da computação em nuvem, a privacidade está relacionada principalmente a:",
+    "respostas": [
+      "Velocidade de processamento dos servidores",
+      "Garantia de que informações pessoais sejam tratadas adequadamente",
+      "Quantidade de máquinas virtuais disponíveis",
+      "Capacidade de armazenamento do datacenter"
+    ],
+    "correta": 1,
+    "correcao": "A privacidade envolve a proteção e o tratamento adequado dos dados pessoais, respeitando legislações e políticas organizacionais."
+  },
+  {
+    "pergunta": "O termo 'sistemas legados' refere-se a:",
+    "respostas": [
+      "Aplicações modernas desenvolvidas para a nuvem",
+      "Sistemas antigos que continuam em operação",
+      "Serviços exclusivos de nuvens públicas",
+      "Ambientes de computação quântica"
+    ],
+    "correta": 1,
+    "correcao": "Sistemas legados são aplicações ou infraestruturas antigas que permanecem em uso e podem dificultar processos de migração para a nuvem."
+  },
+  {
+    "pergunta": "Qual desafio está diretamente relacionado à integração de sistemas legados com serviços em nuvem?",
+    "respostas": [
+      "Compatibilidade tecnológica",
+      "Redução do consumo de energia",
+      "Aumento da velocidade da internet",
+      "Substituição de protocolos TCP/IP"
+    ],
+    "correta": 0,
+    "correcao": "Muitos sistemas legados foram projetados para ambientes locais e podem apresentar dificuldades de integração com arquiteturas modernas em nuvem."
+  },
+  {
+    "pergunta": "A resistência dos colaboradores à adoção de novas tecnologias em nuvem é um exemplo de desafio relacionado a:",
+    "respostas": [
+      "Elasticidade",
+      "Virtualização",
+      "Cultura organizacional",
+      "Balanceamento de carga"
+    ],
+    "correta": 2,
+    "correcao": "A cultura organizacional influencia a aceitação de mudanças, sendo comum haver resistência durante processos de transformação digital."
+  },
+  {
+    "pergunta": "Qual medida contribui para aumentar a segurança dos dados armazenados na nuvem?",
+    "respostas": [
+      "Desabilitar autenticação de usuários",
+      "Utilizar criptografia dos dados",
+      "Compartilhar senhas entre equipes",
+      "Remover mecanismos de auditoria"
+    ],
+    "correta": 1,
+    "correcao": "A criptografia protege os dados contra acessos indevidos, tanto durante a transmissão quanto no armazenamento."
+  },
+  {
+    "pergunta": "A conformidade com legislações como a LGPD está mais associada a qual desafio da computação em nuvem?",
+    "respostas": [
+      "Privacidade",
+      "Escalabilidade",
+      "Elasticidade",
+      "Balanceamento de carga"
+    ],
+    "correta": 0,
+    "correcao": "A LGPD estabelece regras para coleta, armazenamento e tratamento de dados pessoais, estando diretamente relacionada à privacidade."
+  },
+  {
+    "pergunta": "Qual situação exemplifica um desafio cultural na migração para a nuvem?",
+    "respostas": [
+      "Falta de espaço físico para servidores",
+      "Funcionários receosos em abandonar processos tradicionais",
+      "Aumento da largura de banda da rede",
+      "Aquisição de novos equipamentos"
+    ],
+    "correta": 1,
+    "correcao": "Mudanças tecnológicas frequentemente exigem adaptação das equipes, podendo gerar resistência por parte dos usuários e gestores."
+  },
+  {
+    "pergunta": "Uma organização decide manter parte de seus sistemas antigos devido à dificuldade de migração para a nuvem. Esse cenário está relacionado principalmente a:",
+    "respostas": [
+      "Sistemas legados",
+      "Pool de recursos",
+      "Elasticidade rápida",
+      "Serviço mensurável"
+    ],
+    "correta": 0,
+    "correcao": "Sistemas legados costumam representar desafios técnicos e financeiros para processos de modernização e migração."
+  },
+  {
+    "pergunta": "Qual das alternativas apresenta corretamente um conjunto de desafios comuns da computação em nuvem?",
+    "respostas": [
+      "Segurança, privacidade, integração com sistemas legados e mudança cultural",
+      "Velocidade do teclado, resolução do monitor e impressoras",
+      "Substituição do sistema operacional e remoção da internet",
+      "Uso exclusivo de servidores físicos e eliminação da virtualização"
+    ],
+    "correta": 0,
+    "correcao": "Os principais desafios da computação em nuvem envolvem questões de segurança, privacidade, integração tecnológica e adaptação cultural das organizações."
+  },
+    {
+    "pergunta": "Qual modelo de computação em nuvem fornece recursos básicos de infraestrutura, como máquinas virtuais, armazenamento e redes?",
+    "respostas": [
+      "SaaS",
+      "PaaS",
+      "IaaS",
+      "DaaS"
+    ],
+    "correta": 2,
+    "correcao": "IaaS (Infrastructure as a Service) oferece recursos fundamentais de infraestrutura computacional sob demanda, permitindo que o cliente gerencie sistemas operacionais e aplicações."
+  },
+  {
+    "pergunta": "No modelo PaaS, qual é a principal responsabilidade do provedor?",
+    "respostas": [
+      "Gerenciar apenas o hardware físico",
+      "Fornecer uma plataforma completa para desenvolvimento e implantação de aplicações",
+      "Disponibilizar somente softwares prontos para uso",
+      "Gerenciar exclusivamente os dados dos usuários"
+    ],
+    "correta": 1,
+    "correcao": "PaaS (Platform as a Service) fornece ambiente, ferramentas e infraestrutura necessários para desenvolver, testar e implantar aplicações."
+  },
+  {
+    "pergunta": "Qual modelo de serviço em nuvem disponibiliza aplicações prontas para uso pelos usuários finais?",
+    "respostas": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "FaaS"
+    ],
+    "correta": 2,
+    "correcao": "SaaS (Software as a Service) fornece softwares acessíveis pela internet, sem necessidade de instalação ou gerenciamento da infraestrutura pelo usuário."
+  },
+  {
+    "pergunta": "Em qual modelo o cliente possui maior controle sobre o ambiente computacional?",
+    "respostas": [
+      "SaaS",
+      "PaaS",
+      "IaaS",
+      "Todos possuem o mesmo nível de controle"
+    ],
+    "correta": 2,
+    "correcao": "No modelo IaaS, o cliente administra sistemas operacionais, aplicações e configurações, tendo maior controle sobre o ambiente."
+  },
+  {
+    "pergunta": "Uma empresa utiliza um serviço de e-mail corporativo acessado diretamente pelo navegador. Esse é um exemplo de:",
+    "respostas": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "Virtualização"
+    ],
+    "correta": 2,
+    "correcao": "Serviços de e-mail online são exemplos clássicos de SaaS, pois fornecem uma aplicação pronta para uso."
+  },
+  {
+    "pergunta": "Qual das alternativas representa uma característica típica do PaaS?",
+    "respostas": [
+      "O usuário gerencia toda a infraestrutura física",
+      "O usuário desenvolve aplicações sem se preocupar com servidores e sistemas operacionais",
+      "O usuário recebe apenas armazenamento em nuvem",
+      "O usuário precisa instalar todos os softwares localmente"
+    ],
+    "correta": 1,
+    "correcao": "No PaaS, o provedor gerencia a infraestrutura e a plataforma, permitindo que os desenvolvedores foquem na criação das aplicações."
+  },
+  {
+    "pergunta": "Qual é a principal diferença entre IaaS e SaaS?",
+    "respostas": [
+      "IaaS fornece infraestrutura, enquanto SaaS fornece aplicações prontas para uso",
+      "IaaS fornece softwares e SaaS fornece hardware",
+      "IaaS não utiliza internet",
+      "SaaS exige gerenciamento completo do servidor pelo cliente"
+    ],
+    "correta": 0,
+    "correcao": "IaaS oferece recursos de infraestrutura, enquanto SaaS disponibiliza aplicações completas acessíveis diretamente pelos usuários."
+  },
+  {
+    "pergunta": "Um desenvolvedor deseja apenas publicar sua aplicação sem administrar servidores ou sistemas operacionais. Qual modelo atende melhor essa necessidade?",
+    "respostas": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "On-Premises"
+    ],
+    "correta": 1,
+    "correcao": "O PaaS abstrai a infraestrutura subjacente, permitindo que o desenvolvedor concentre esforços na aplicação."
+  },
+  {
+    "pergunta": "Considerando os modelos de serviço em nuvem, qual apresenta o menor nível de gerenciamento por parte do cliente?",
+    "respostas": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "Todos exigem o mesmo gerenciamento"
+    ],
+    "correta": 2,
+    "correcao": "No SaaS, praticamente toda a infraestrutura, plataforma e aplicação são gerenciadas pelo provedor."
+  },
+  {
+    "pergunta": "A sequência correta dos modelos de computação em nuvem do maior para o menor nível de controle do cliente é:",
+    "respostas": [
+      "SaaS → PaaS → IaaS",
+      "PaaS → SaaS → IaaS",
+      "IaaS → PaaS → SaaS",
+      "SaaS → IaaS → PaaS"
+    ],
+    "correta": 2,
+    "correcao": "O cliente possui maior controle em IaaS, controle intermediário em PaaS e menor controle em SaaS, onde a aplicação é totalmente gerenciada pelo provedor."
+  },
+    {
+    "pergunta": "O que é virtualização no contexto da computação?",
+    "respostas": [
+      "A substituição de computadores físicos por dispositivos móveis",
+      "A criação de versões virtuais de recursos computacionais, como servidores e sistemas operacionais",
+      "A conversão de arquivos físicos em digitais",
+      "O compartilhamento de senhas entre usuários"
+    ],
+    "correta": 1,
+    "correcao": "Virtualização é a tecnologia que permite criar recursos computacionais virtuais, possibilitando melhor aproveitamento do hardware físico."
+  },
+  {
+    "pergunta": "Qual tecnologia é considerada fundamental para a consolidação da computação em nuvem?",
+    "respostas": [
+      "Blockchain",
+      "Realidade virtual",
+      "Virtualização",
+      "Impressão 3D"
+    ],
+    "correta": 2,
+    "correcao": "A virtualização permite compartilhar recursos físicos entre múltiplos ambientes virtuais, sendo uma das bases da computação em nuvem."
+  },
+  {
+    "pergunta": "Qual componente é responsável por gerenciar máquinas virtuais e recursos físicos em um ambiente virtualizado?",
+    "respostas": [
+      "Firewall",
+      "Hypervisor",
+      "Switch",
+      "Proxy"
+    ],
+    "correta": 1,
+    "correcao": "O hypervisor é o software responsável por criar e administrar máquinas virtuais, controlando o acesso aos recursos físicos."
+  },
+  {
+    "pergunta": "Na virtualização de servidores, um único servidor físico pode:",
+    "respostas": [
+      "Executar apenas um sistema operacional",
+      "Ser utilizado exclusivamente para armazenamento",
+      "Hospedar múltiplas máquinas virtuais independentes",
+      "Substituir a necessidade de rede"
+    ],
+    "correta": 2,
+    "correcao": "A virtualização permite que diversas máquinas virtuais compartilhem o mesmo hardware físico de forma isolada."
+  },
+  {
+    "pergunta": "Qual das alternativas representa um benefício da virtualização?",
+    "respostas": [
+      "Aumento da quantidade de hardware necessário",
+      "Melhor aproveitamento dos recursos computacionais",
+      "Eliminação da necessidade de sistemas operacionais",
+      "Redução da capacidade de escalabilidade"
+    ],
+    "correta": 1,
+    "correcao": "A virtualização aumenta a eficiência do uso dos recursos físicos, reduzindo desperdícios e custos."
+  },
+  {
+    "pergunta": "Qual tipo de virtualização permite executar vários sistemas operacionais em um único computador físico?",
+    "respostas": [
+      "Virtualização de armazenamento",
+      "Virtualização de rede",
+      "Virtualização de servidores",
+      "Virtualização de aplicações"
+    ],
+    "correta": 2,
+    "correcao": "A virtualização de servidores possibilita a execução simultânea de múltiplos sistemas operacionais em máquinas virtuais independentes."
+  },
+  {
+    "pergunta": "A virtualização de aplicações tem como objetivo principal:",
+    "respostas": [
+      "Executar aplicações de forma isolada do sistema operacional hospedeiro",
+      "Criar múltiplas redes físicas",
+      "Substituir o hardware do computador",
+      "Aumentar a velocidade da internet"
+    ],
+    "correta": 0,
+    "correcao": "A virtualização de aplicações permite executar programas em ambientes isolados, reduzindo conflitos e simplificando a distribuição."
+  },
+  {
+    "pergunta": "Qual tipo de virtualização abstrai dispositivos físicos de armazenamento, apresentando-os como um recurso lógico unificado?",
+    "respostas": [
+      "Virtualização de aplicações",
+      "Virtualização de desktop",
+      "Virtualização de armazenamento",
+      "Virtualização de processos"
+    ],
+    "correta": 2,
+    "correcao": "A virtualização de armazenamento combina diferentes dispositivos físicos em um único recurso lógico de armazenamento."
+  },
+  {
+    "pergunta": "A virtualização de rede permite:",
+    "respostas": [
+      "Criar redes lógicas independentes sobre a mesma infraestrutura física",
+      "Eliminar a necessidade de protocolos de comunicação",
+      "Substituir roteadores físicos por cabos",
+      "Executar sistemas operacionais sem hardware"
+    ],
+    "correta": 0,
+    "correcao": "A virtualização de rede possibilita criar e gerenciar redes virtuais utilizando a mesma infraestrutura física subjacente."
+  },
+  {
+    "pergunta": "Qual das alternativas apresenta corretamente tipos de virtualização?",
+    "respostas": [
+      "Virtualização de servidores, armazenamento, rede e aplicações",
+      "Virtualização de teclado, mouse e monitor",
+      "Virtualização de linguagem de programação e compiladores",
+      "Virtualização de protocolos TCP e UDP"
+    ],
+    "correta": 0,
+    "correcao": "Os principais tipos de virtualização incluem servidores, armazenamento, rede, desktops e aplicações, amplamente utilizados em ambientes corporativos e de nuvem."
+  },
+    {
+    "pergunta": "Qual é o principal objetivo da virtualização de recursos computacionais?",
+    "respostas": [
+      "Substituir completamente o hardware físico",
+      "Permitir o compartilhamento eficiente dos recursos físicos entre múltiplos ambientes virtuais",
+      "Eliminar a necessidade de sistemas operacionais",
+      "Aumentar a velocidade da internet"
+    ],
+    "correta": 1,
+    "correcao": "A virtualização busca otimizar a utilização dos recursos físicos, permitindo que múltiplas máquinas virtuais compartilhem a mesma infraestrutura."
+  },
+  {
+    "pergunta": "Na Virtualização Total (Full Virtualization), o sistema operacional convidado:",
+    "respostas": [
+      "Precisa ser modificado para funcionar no ambiente virtual",
+      "Executa sem alterações, acreditando estar em hardware real",
+      "Não utiliza hypervisor",
+      "Funciona apenas em sistemas Linux"
+    ],
+    "correta": 1,
+    "correcao": "Na virtualização total, o sistema operacional convidado não precisa ser modificado, pois o hypervisor emula o hardware necessário."
+  },
+  {
+    "pergunta": "A Paravirtualização diferencia-se da Virtualização Total porque:",
+    "respostas": [
+      "Não utiliza sistemas operacionais convidados",
+      "Exige modificações no sistema operacional convidado para melhorar a comunicação com o hypervisor",
+      "Não utiliza hardware físico",
+      "Executa apenas aplicações web"
+    ],
+    "correta": 1,
+    "correcao": "Na paravirtualização, o sistema operacional é adaptado para interagir diretamente com o hypervisor, reduzindo a sobrecarga de virtualização."
+  },
+  {
+    "pergunta": "Qual técnica de virtualização tende a apresentar melhor desempenho devido à redução da sobrecarga do hypervisor?",
+    "respostas": [
+      "Virtualização Total",
+      "Paravirtualização",
+      "Virtualização de Aplicações",
+      "Virtualização de Rede"
+    ],
+    "correta": 1,
+    "correcao": "A paravirtualização geralmente apresenta melhor desempenho porque o sistema operacional convidado coopera diretamente com o hypervisor."
+  },
+  {
+    "pergunta": "Uma vantagem da Virtualização Total é:",
+    "respostas": [
+      "Maior compatibilidade com diferentes sistemas operacionais",
+      "Necessidade obrigatória de modificar o kernel do sistema operacional",
+      "Ausência de hypervisor",
+      "Menor flexibilidade de implantação"
+    ],
+    "correta": 0,
+    "correcao": "A virtualização total permite executar sistemas operacionais sem modificações, aumentando a compatibilidade."
+  },
+  {
+    "pergunta": "Na Paravirtualização, a comunicação entre o sistema operacional convidado e o hypervisor ocorre por meio de:",
+    "respostas": [
+      "Chamadas especializadas conhecidas como hypercalls",
+      "Cabos físicos dedicados",
+      "Protocolos FTP",
+      "Memória ROM"
+    ],
+    "correta": 0,
+    "correcao": "A paravirtualização utiliza hypercalls para permitir uma comunicação mais eficiente entre o sistema convidado e o hypervisor."
+  },
+  {
+    "pergunta": "Qual das alternativas representa uma desvantagem da Paravirtualização?",
+    "respostas": [
+      "Necessidade de modificar o sistema operacional convidado",
+      "Baixo desempenho",
+      "Incapacidade de utilizar hypervisors",
+      "Impossibilidade de executar múltiplas máquinas virtuais"
+    ],
+    "correta": 0,
+    "correcao": "A principal limitação da paravirtualização é a necessidade de adaptar ou modificar o sistema operacional convidado."
+  },
+  {
+    "pergunta": "Qual cenário favorece a utilização da Virtualização Total?",
+    "respostas": [
+      "Ambientes que exigem máxima compatibilidade com sistemas operacionais não modificados",
+      "Ambientes sem sistemas operacionais",
+      "Redes sem acesso à internet",
+      "Aplicações exclusivamente embarcadas"
+    ],
+    "correta": 0,
+    "correcao": "A virtualização total é ideal quando se deseja executar sistemas operacionais sem qualquer alteração."
+  },
+  {
+    "pergunta": "Qual componente é indispensável tanto na Virtualização Total quanto na Paravirtualização?",
+    "respostas": [
+      "Compilador",
+      "Firewall",
+      "Hypervisor",
+      "Proxy"
+    ],
+    "correta": 2,
+    "correcao": "O hypervisor é o elemento responsável por gerenciar as máquinas virtuais e os recursos físicos em ambos os modelos."
+  },
+  {
+    "pergunta": "Ao comparar Virtualização Total e Paravirtualização, é correto afirmar que:",
+    "respostas": [
+      "A Virtualização Total exige modificações no sistema operacional e a Paravirtualização não",
+      "A Paravirtualização busca melhor desempenho por meio da cooperação do sistema operacional convidado",
+      "Ambas dispensam o uso de hypervisors",
+      "A Virtualização Total possui necessariamente melhor desempenho"
+    ],
+    "correta": 1,
+    "correcao": "A paravirtualização reduz a sobrecarga ao permitir que o sistema operacional convidado interaja diretamente com o hypervisor, resultando em melhor desempenho em muitos cenários."
+  },
+    {
+    "pergunta": "Qual recurso da virtualização permite executar múltiplas máquinas virtuais em um único servidor físico?",
+    "respostas": [
+      "Consolidação de servidores",
+      "Fragmentação de recursos",
+      "Computação quântica",
+      "Balanceamento manual"
+    ],
+    "correta": 0,
+    "correcao": "A consolidação de servidores permite hospedar diversas máquinas virtuais em um único equipamento físico, aumentando a eficiência da infraestrutura."
+  },
+  {
+    "pergunta": "Qual recurso da virtualização possibilita a criação de ambientes isolados dentro do mesmo hardware físico?",
+    "respostas": [
+      "Isolamento",
+      "Compressão",
+      "Escalonamento de processos",
+      "Replicação física"
+    ],
+    "correta": 0,
+    "correcao": "O isolamento garante que cada máquina virtual opere independentemente, evitando interferências entre ambientes."
+  },
+  {
+    "pergunta": "A capacidade de mover uma máquina virtual de um servidor físico para outro com pouca ou nenhuma interrupção é conhecida como:",
+    "respostas": [
+      "Balanceamento de carga",
+      "Migração de máquinas virtuais",
+      "Particionamento de disco",
+      "Desfragmentação"
+    ],
+    "correta": 1,
+    "correcao": "A migração de máquinas virtuais permite transferir cargas de trabalho entre servidores físicos, facilitando manutenção e alta disponibilidade."
+  },
+  {
+    "pergunta": "Qual recurso da virtualização contribui diretamente para a alta disponibilidade dos serviços?",
+    "respostas": [
+      "Execução local",
+      "Migração e recuperação de máquinas virtuais",
+      "Redução da memória RAM",
+      "Desativação do hypervisor"
+    ],
+    "correta": 1,
+    "correcao": "A virtualização facilita a recuperação e migração de máquinas virtuais, reduzindo o tempo de indisponibilidade dos serviços."
+  },
+  {
+    "pergunta": "O encapsulamento de uma máquina virtual significa que:",
+    "respostas": [
+      "Todos os seus componentes podem ser armazenados e transportados como arquivos",
+      "Ela não utiliza armazenamento",
+      "Ela é executada sem sistema operacional",
+      "Ela depende exclusivamente de hardware dedicado"
+    ],
+    "correta": 0,
+    "correcao": "O encapsulamento permite que uma máquina virtual seja representada por arquivos, facilitando backup, cópia e migração."
+  },
+  {
+    "pergunta": "Qual recurso da virtualização permite criar rapidamente novos ambientes computacionais a partir de modelos predefinidos?",
+    "respostas": [
+      "Provisionamento rápido",
+      "Desfragmentação",
+      "Escalonamento manual",
+      "Espelhamento físico"
+    ],
+    "correta": 0,
+    "correcao": "O provisionamento rápido possibilita a criação ágil de novas máquinas virtuais utilizando templates ou imagens pré-configuradas."
+  },
+  {
+    "pergunta": "Os snapshots em ambientes virtualizados são utilizados para:",
+    "respostas": [
+      "Aumentar a velocidade da internet",
+      "Registrar o estado de uma máquina virtual em determinado momento",
+      "Substituir o sistema operacional",
+      "Eliminar a necessidade de backups"
+    ],
+    "correta": 1,
+    "correcao": "Snapshots permitem capturar o estado de uma máquina virtual, facilitando testes, recuperação e manutenção."
+  },
+  {
+    "pergunta": "Qual recurso da virtualização contribui para a otimização do uso de CPU, memória e armazenamento?",
+    "respostas": [
+      "Compartilhamento de recursos",
+      "Formatação de discos",
+      "Processamento local",
+      "Cabeamento estruturado"
+    ],
+    "correta": 0,
+    "correcao": "O compartilhamento de recursos permite distribuir eficientemente CPU, memória e armazenamento entre várias máquinas virtuais."
+  },
+  {
+    "pergunta": "A independência entre hardware físico e sistema operacional proporcionada pela virtualização é conhecida como:",
+    "respostas": [
+      "Abstração",
+      "Compressão",
+      "Criptografia",
+      "Fragmentação"
+    ],
+    "correta": 0,
+    "correcao": "A abstração permite que sistemas operacionais e aplicações sejam executados sem dependência direta do hardware físico."
+  },
+  {
+    "pergunta": "Qual das alternativas apresenta corretamente recursos comuns da virtualização?",
+    "respostas": [
+      "Isolamento, encapsulamento, migração e compartilhamento de recursos",
+      "Impressão, digitalização, cabeamento e roteamento",
+      "Compilação, interpretação, criptografia e cache",
+      "HTML, CSS, JavaScript e SQL"
+    ],
+    "correta": 0,
+    "correcao": "Entre os principais recursos da virtualização estão isolamento, encapsulamento, migração de máquinas virtuais e compartilhamento eficiente dos recursos físicos."
+  },
+    {
+    "pergunta": "A Lei Estadual nº 10.177/1998 tem como principal objetivo:",
+    "respostas": [
+      "Regular os contratos privados no Estado de São Paulo",
+      "Disciplinar o processo administrativo no âmbito da Administração Pública Estadual",
+      "Organizar o Poder Judiciário Estadual",
+      "Regulamentar exclusivamente concursos públicos"
+    ],
+    "correta": 1,
+    "correcao": "A Lei nº 10.177/1998 estabelece normas básicas para os processos administrativos da Administração Pública do Estado de São Paulo."
+  },
+  {
+    "pergunta": "Segundo a Lei nº 10.177/1998, a Administração Pública deve obedecer, entre outros, ao princípio da:",
+    "respostas": [
+      "Competitividade",
+      "Lucratividade",
+      "Legalidade",
+      "Exclusividade"
+    ],
+    "correta": 2,
+    "correcao": "A legalidade é um dos princípios fundamentais que orientam a atuação administrativa e os processos administrativos."
+  },
+  {
+    "pergunta": "No processo administrativo, o princípio da motivação exige que:",
+    "respostas": [
+      "Todo ato administrativo seja fundamentado com indicação dos fatos e dos fundamentos jurídicos",
+      "Os atos sejam praticados verbalmente",
+      "A Administração atue sem justificativas formais",
+      "As decisões sejam tomadas exclusivamente por autoridades superiores"
+    ],
+    "correta": 0,
+    "correcao": "A motivação garante transparência e controle dos atos administrativos por meio da exposição das razões que fundamentam a decisão."
+  },
+  {
+    "pergunta": "De acordo com a Lei nº 10.177/1998, é assegurado ao administrado:",
+    "respostas": [
+      "O direito ao contraditório e à ampla defesa",
+      "O direito de descumprir decisões administrativas",
+      "O direito de ignorar intimações",
+      "O direito de dispensar a produção de provas"
+    ],
+    "correta": 0,
+    "correcao": "A lei garante ao administrado o exercício do contraditório e da ampla defesa nos processos administrativos."
+  },
+  {
+    "pergunta": "O princípio da publicidade no processo administrativo busca:",
+    "respostas": [
+      "Restringir o acesso às informações públicas",
+      "Garantir transparência e acesso às informações, salvo hipóteses legais de sigilo",
+      "Permitir decisões secretas como regra geral",
+      "Eliminar a necessidade de publicação dos atos"
+    ],
+    "correta": 1,
+    "correcao": "A publicidade promove a transparência administrativa, permitindo o controle social dos atos da Administração."
+  },
+  {
+    "pergunta": "A competência administrativa é considerada:",
+    "respostas": [
+      "Renunciável pela autoridade pública",
+      "Transferível sem previsão legal",
+      "Irrenunciável, salvo nos casos de delegação ou avocação legalmente admitidos",
+      "Facultativa para os agentes públicos"
+    ],
+    "correta": 2,
+    "correcao": "A competência é atribuída por lei e, em regra, é irrenunciável, admitindo exceções previstas legalmente."
+  },
+  {
+    "pergunta": "Quando a Administração comunica formalmente um interessado sobre ato ou decisão em processo administrativo, ocorre a:",
+    "respostas": [
+      "Delegação",
+      "Avocação",
+      "Intimação",
+      "Convalidação"
+    ],
+    "correta": 2,
+    "correcao": "A intimação é o instrumento utilizado para dar ciência ao interessado dos atos processuais."
+  },
+  {
+    "pergunta": "Segundo a Lei nº 10.177/1998, a Administração Pública deve atuar observando, entre outros, o critério da:",
+    "respostas": [
+      "Razoabilidade",
+      "Competição",
+      "Exclusividade",
+      "Rentabilidade"
+    ],
+    "correta": 0,
+    "correcao": "A razoabilidade orienta a atuação administrativa para que as decisões sejam adequadas, necessárias e proporcionais."
+  },
+  {
+    "pergunta": "Qual dos seguintes princípios busca assegurar tratamento igualitário aos administrados?",
+    "respostas": [
+      "Impessoalidade",
+      "Hierarquia",
+      "Centralização",
+      "Especialização"
+    ],
+    "correta": 0,
+    "correcao": "O princípio da impessoalidade impede favorecimentos ou perseguições, garantindo igualdade de tratamento."
+  },
+  {
+    "pergunta": "A Lei nº 10.177/1998 aplica-se principalmente aos processos administrativos conduzidos por:",
+    "respostas": [
+      "Empresas privadas",
+      "Órgãos e entidades da Administração Pública Estadual de São Paulo",
+      "Tribunais federais",
+      "Organizações internacionais"
+    ],
+    "correta": 1,
+    "correcao": "A lei regula os processos administrativos no âmbito da Administração Pública direta e indireta do Estado de São Paulo."
+  },
+    {
+    "pergunta": "A Lei Complementar nº 1.044/2008 instituiu:",
+    "respostas": [
+      "O Estatuto dos Servidores Públicos do Estado de São Paulo",
+      "O Plano de Carreiras, de Empregos Públicos e Sistema Retribuitório dos servidores do CEETEPS",
+      "O Regime Jurídico Único dos servidores estaduais",
+      "O Plano Nacional de Educação Tecnológica"
+    ],
+    "correta": 1,
+    "correcao": "A Lei Complementar nº 1.044/2008 instituiu o Plano de Carreiras, de Empregos Públicos e Sistema Retribuitório dos servidores do CEETEPS (Centro Paula Souza). :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "pergunta": "Segundo a Lei Complementar nº 1.044/2008, o regime jurídico dos servidores abrangidos pelo plano é o da:",
+    "respostas": [
+      "Lei nº 8.112/1990",
+      "Constituição Federal",
+      "Consolidação das Leis do Trabalho (CLT)",
+      "Lei Estadual nº 10.261/1968"
+    ],
+    "correta": 2,
+    "correcao": "O artigo 4º da Lei Complementar nº 1.044/2008 estabelece que o regime jurídico dos servidores do CEETEPS é o da Consolidação das Leis do Trabalho (CLT). :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "pergunta": "Para os fins da Lei Complementar nº 1.044/2008, 'classe' é definida como:",
+    "respostas": [
+      "O conjunto de referências salariais de um servidor",
+      "O conjunto de empregos públicos de mesma natureza e igual denominação",
+      "A unidade administrativa de lotação do servidor",
+      "O agrupamento de órgãos da administração indireta"
+    ],
+    "correta": 1,
+    "correcao": "A lei define classe como o conjunto de empregos públicos de mesma natureza e igual denominação. :contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "pergunta": "De acordo com a Lei Complementar nº 1.044/2008, remuneração corresponde:",
+    "respostas": [
+      "Apenas ao salário-base do servidor",
+      "Ao salário acrescido das vantagens pecuniárias previstas em lei",
+      "Somente aos benefícios eventuais",
+      "À soma do salário com horas extras exclusivamente"
+    ],
+    "correta": 1,
+    "correcao": "A remuneração é composta pelo salário acrescido das vantagens pecuniárias a que o servidor fizer jus, previstas em lei. :contentReference[oaicite:3]{index=3}"
+  },
+  {
+    "pergunta": "Qual dos seguintes subquadros foi criado pela Lei Complementar nº 1.044/2008?",
+    "respostas": [
+      "Subquadro de Empregos Públicos Permanentes (SQEP-P)",
+      "Subquadro de Magistrados Estaduais",
+      "Subquadro de Servidores Federais",
+      "Subquadro de Empregos Militares"
+    ],
+    "correta": 0,
+    "correcao": "Entre os subquadros criados pela lei está o Subquadro de Empregos Públicos Permanentes (SQEP-P). :contentReference[oaicite:4]{index=4}"
+  },
+  {
+    "pergunta": "O Plano de Carreiras do CEETEPS organiza e escalona as classes considerando, entre outros fatores:",
+    "respostas": [
+      "A antiguidade exclusivamente",
+      "A complexidade das atribuições e a formação exigida",
+      "A localização geográfica da unidade",
+      "A arrecadação da instituição"
+    ],
+    "correta": 1,
+    "correcao": "A lei considera fatores como complexidade das atribuições, formação exigida, responsabilidade e experiência profissional. :contentReference[oaicite:5]{index=5}"
+  },
+  {
+    "pergunta": "Segundo a Lei Complementar nº 1.044/2008, 'emprego público' é definido como:",
+    "respostas": [
+      "O local de trabalho do servidor",
+      "O conjunto de atribuições e responsabilidades cometidas ao servidor",
+      "A remuneração recebida mensalmente",
+      "O vínculo temporário sem atribuições definidas"
+    ],
+    "correta": 1,
+    "correcao": "Emprego público corresponde ao conjunto de atribuições e responsabilidades atribuídas ao servidor. :contentReference[oaicite:6]{index=6}"
+  },
+  {
+    "pergunta": "Uma das alterações posteriores à Lei Complementar nº 1.044/2008 foi promovida pela:",
+    "respostas": [
+      "Lei Complementar nº 1.343/2019",
+      "Lei Federal nº 8.666/1993",
+      "Lei nº 14.133/2021",
+      "Lei Complementar nº 101/2000"
+    ],
+    "correta": 0,
+    "correcao": "A Lei Complementar nº 1.343/2019 promoveu alterações na Lei Complementar nº 1.044/2008. :contentReference[oaicite:7]{index=7}"
+  },
+  {
+    "pergunta": "O quadro de pessoal do CEETEPS é definido pela Lei Complementar nº 1.044/2008 como:",
+    "respostas": [
+      "O conjunto de unidades de ensino da instituição",
+      "O conjunto de empregos públicos pertencentes ao CEETEPS",
+      "O total de docentes em exercício",
+      "O conjunto de cargos em comissão do Estado"
+    ],
+    "correta": 1,
+    "correcao": "A lei define quadro de pessoal como o conjunto de empregos públicos pertencentes ao CEETEPS. :contentReference[oaicite:8]{index=8}"
+  },
+  {
+    "pergunta": "A Lei Complementar nº 1.044/2008 aplica-se aos servidores de qual instituição?",
+    "respostas": [
+      "Universidade de São Paulo (USP)",
+      "Instituto Federal de São Paulo (IFSP)",
+      "Centro Estadual de Educação Tecnológica Paula Souza (CEETEPS)",
+      "Universidade Estadual Paulista (UNESP)"
+    ],
+    "correta": 2,
+    "correcao": "A norma institui o plano de carreiras e o sistema retribuitório dos servidores do Centro Estadual de Educação Tecnológica Paula Souza (CEETEPS). :contentReference[oaicite:9]{index=9}"
+  },
+    {
+    "pergunta": "A Deliberação Ceeteps nº 11/2015 dispõe sobre:",
+    "respostas": [
+      "O plano de carreira dos docentes",
+      "O regulamento disciplinar dos empregados públicos do CEETEPS",
+      "As normas de licitação do Centro Paula Souza",
+      "O estatuto dos estudantes das Etecs e Fatecs"
+    ],
+    "correta": 1,
+    "correcao": "A Deliberação Ceeteps nº 11/2015 estabelece o Regulamento Disciplinar dos Empregados Públicos do CEETEPS, definindo deveres, proibições e penalidades."
+  },
+  {
+    "pergunta": "O Regulamento Disciplinar dos Empregados Públicos do CEETEPS tem como finalidade principal:",
+    "respostas": [
+      "Estabelecer regras de conduta e responsabilidades funcionais",
+      "Definir o currículo dos cursos técnicos",
+      "Regulamentar concursos vestibulares",
+      "Organizar os planos pedagógicos das unidades"
+    ],
+    "correta": 0,
+    "correcao": "O regulamento busca orientar a conduta dos empregados públicos e disciplinar a aplicação de sanções em caso de infrações."
+  },
+  {
+    "pergunta": "Entre os deveres do empregado público do CEETEPS está:",
+    "respostas": [
+      "Utilizar os bens públicos exclusivamente para fins particulares",
+      "Agir com urbanidade, respeito e ética no exercício de suas funções",
+      "Recusar o cumprimento de determinações legais",
+      "Divulgar informações sigilosas da instituição"
+    ],
+    "correta": 1,
+    "correcao": "O regulamento prevê que os empregados públicos devem agir com ética, respeito, responsabilidade e urbanidade."
+  },
+  {
+    "pergunta": "Constitui infração disciplinar:",
+    "respostas": [
+      "Cumprir as normas institucionais",
+      "Preservar o patrimônio público",
+      "Valer-se do cargo para obter vantagem pessoal indevida",
+      "Atender com cortesia os usuários do serviço público"
+    ],
+    "correta": 2,
+    "correcao": "O uso do cargo para obtenção de vantagens pessoais caracteriza infração disciplinar sujeita à aplicação de penalidades."
+  },
+  {
+    "pergunta": "Qual dos princípios deve orientar a aplicação das penalidades disciplinares?",
+    "respostas": [
+      "Arbitrariedade",
+      "Proporcionalidade",
+      "Favorecimento pessoal",
+      "Subjetividade"
+    ],
+    "correta": 1,
+    "correcao": "A penalidade deve ser proporcional à gravidade da infração cometida, observando critérios de razoabilidade e justiça."
+  },
+  {
+    "pergunta": "A apuração de infrações disciplinares deve assegurar ao empregado público:",
+    "respostas": [
+      "Sigilo absoluto sem direito de manifestação",
+      "Contraditório e ampla defesa",
+      "Julgamento sem produção de provas",
+      "Dispensa de processo administrativo"
+    ],
+    "correta": 1,
+    "correcao": "O regulamento observa os princípios constitucionais do contraditório e da ampla defesa nos procedimentos disciplinares."
+  },
+  {
+    "pergunta": "Qual das alternativas representa uma conduta incompatível com os deveres funcionais do empregado público?",
+    "respostas": [
+      "Zelar pelo patrimônio institucional",
+      "Cumprir as atribuições do emprego",
+      "Tratar usuários com respeito",
+      "Utilizar recursos institucionais para interesses particulares sem autorização"
+    ],
+    "correta": 3,
+    "correcao": "O uso de recursos públicos para fins particulares sem autorização caracteriza infração disciplinar."
+  },
+  {
+    "pergunta": "Ao aplicar uma penalidade disciplinar, a Administração deve considerar:",
+    "respostas": [
+      "A gravidade da infração e suas circunstâncias",
+      "A opinião pessoal dos colegas",
+      "A área de atuação do servidor apenas",
+      "O tempo de funcionamento da unidade escolar"
+    ],
+    "correta": 0,
+    "correcao": "A análise da gravidade da conduta, dos danos causados e das circunstâncias do caso é essencial para a definição da penalidade."
+  },
+  {
+    "pergunta": "O Regulamento Disciplinar aplica-se aos:",
+    "respostas": [
+      "Alunos das Etecs e Fatecs",
+      "Empregados públicos do CEETEPS",
+      "Somente aos diretores das unidades",
+      "Fornecedores contratados pela instituição"
+    ],
+    "correta": 1,
+    "correcao": "A Deliberação Ceeteps nº 11/2015 é destinada aos empregados públicos vinculados ao Centro Paula Souza."
+  },
+  {
+    "pergunta": "A observância da ética, da legalidade e da moralidade administrativa pelos empregados públicos visa:",
+    "respostas": [
+      "Garantir a adequada prestação do serviço público",
+      "Aumentar a autonomia financeira das unidades",
+      "Substituir os regulamentos internos",
+      "Eliminar a necessidade de supervisão administrativa"
+    ],
+    "correta": 0,
+    "correcao": "Os princípios éticos e legais são fundamentais para assegurar a qualidade, a legitimidade e a confiança nos serviços públicos prestados."
+  },
+  {
+    "pergunta": "No Microsoft Windows, qual é a principal função do Explorador de Arquivos?",
+    "respostas": [
+      "Editar planilhas eletrônicas",
+      "Gerenciar arquivos e pastas do computador",
+      "Criar apresentações de slides",
+      "Navegar exclusivamente na internet"
+    ],
+    "correta": 1,
+    "correcao": "O Explorador de Arquivos é utilizado para visualizar, organizar, copiar, mover e excluir arquivos e pastas no sistema operacional Windows."
+  },
+  {
+    "pergunta": "No Microsoft Word, qual recurso é utilizado para aplicar o mesmo padrão de formatação a diferentes partes de um documento?",
+    "respostas": [
+      "Mala direta",
+      "Comentários",
+      "Estilos",
+      "Rodapé"
+    ],
+    "correta": 2,
+    "correcao": "Os estilos permitem padronizar títulos, subtítulos e textos, facilitando a formatação e a organização do documento."
+  },
+  {
+    "pergunta": "No Microsoft Excel, qual fórmula é utilizada para somar os valores contidos no intervalo A1:A10?",
+    "respostas": [
+      "=MEDIA(A1:A10)",
+      "=SOMA(A1:A10)",
+      "=CONT.SE(A1:A10)",
+      "=MAXIMO(A1:A10)"
+    ],
+    "correta": 1,
+    "correcao": "A função SOMA é utilizada para adicionar todos os valores de um intervalo de células."
+  },
+  {
+    "pergunta": "No Microsoft PowerPoint, qual é a finalidade do recurso 'Mestre de Slides'?",
+    "respostas": [
+      "Inserir fórmulas matemáticas",
+      "Gerenciar planilhas vinculadas",
+      "Padronizar o layout e a formatação dos slides",
+      "Converter apresentações em documentos PDF"
+    ],
+    "correta": 2,
+    "correcao": "O Mestre de Slides permite definir layouts, fontes, cores e elementos que serão aplicados a toda a apresentação."
+  },
+  {
+    "pergunta": "Na navegação pela Internet, o protocolo HTTPS é utilizado para:",
+    "respostas": [
+      "Compactar arquivos",
+      "Transmitir dados de forma criptografada e segura",
+      "Enviar e-mails automaticamente",
+      "Aumentar a velocidade da conexão"
+    ],
+    "correta": 1,
+    "correcao": "O HTTPS utiliza mecanismos de criptografia para proteger os dados transmitidos entre o navegador e o servidor."
+  },
+  {
+    "pergunta": "No Windows, qual combinação de teclas é utilizada para alternar entre aplicativos abertos?",
+    "respostas": [
+      "Ctrl + C",
+      "Ctrl + V",
+      "Alt + Tab",
+      "Ctrl + Alt + Del"
+    ],
+    "correta": 2,
+    "correcao": "A combinação Alt + Tab permite alternar rapidamente entre janelas e programas em execução."
+  },
+  {
+    "pergunta": "No Excel, o uso de referências absolutas é indicado pelo símbolo:",
+    "respostas": [
+      "#",
+      "&",
+      "@",
+      "$"
+    ],
+    "correta": 3,
+    "correcao": "O símbolo '$' fixa linhas e/ou colunas em uma fórmula, impedindo que a referência seja alterada ao copiar a fórmula."
+  },
+  {
+    "pergunta": "Qual recurso do Word é utilizado para gerar automaticamente cartas personalizadas para diversos destinatários?",
+    "respostas": [
+      "Controle de Alterações",
+      "Mala Direta",
+      "Sumário Automático",
+      "Quebra de Seção"
+    ],
+    "correta": 1,
+    "correcao": "A Mala Direta permite combinar um documento principal com uma fonte de dados para criar documentos personalizados."
+  },
+  {
+    "pergunta": "No PowerPoint, as animações são utilizadas para:",
+    "respostas": [
+      "Modificar a resolução do monitor",
+      "Controlar a forma como objetos aparecem, desaparecem ou se movimentam nos slides",
+      "Criar fórmulas matemáticas",
+      "Gerenciar arquivos do sistema operacional"
+    ],
+    "correta": 1,
+    "correcao": "As animações adicionam efeitos visuais aos elementos dos slides, tornando as apresentações mais dinâmicas."
+  },
+  {
+    "pergunta": "Qual das alternativas representa uma boa prática de segurança na Internet?",
+    "respostas": [
+      "Utilizar a mesma senha para todos os serviços",
+      "Compartilhar senhas com colegas de trabalho",
+      "Ignorar atualizações de segurança",
+      "Utilizar senhas fortes e autenticação em dois fatores"
+    ],
+    "correta": 3,
+    "correcao": "Senhas fortes combinadas com autenticação em dois fatores aumentam significativamente a segurança das contas digitais."
+  },
+    {
+    "pergunta": "A Lei Federal nº 12.527/2011 é conhecida como:",
+    "respostas": [
+      "Lei de Improbidade Administrativa",
+      "Lei Geral de Proteção de Dados",
+      "Lei de Acesso à Informação",
+      "Lei de Responsabilidade Fiscal"
+    ],
+    "correta": 2,
+    "correcao": "A Lei nº 12.527/2011, conhecida como Lei de Acesso à Informação (LAI), regulamenta o direito constitucional de acesso às informações públicas. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "pergunta": "Segundo a Lei de Acesso à Informação, qual é a regra geral em relação às informações públicas?",
+    "respostas": [
+      "O sigilo é a regra e a publicidade é a exceção",
+      "O acesso depende de autorização judicial",
+      "A publicidade é a regra e o sigilo é a exceção",
+      "O acesso é restrito aos servidores públicos"
+    ],
+    "correta": 2,
+    "correcao": "Um dos princípios fundamentais da LAI é que o acesso à informação é a regra, enquanto o sigilo constitui exceção. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "pergunta": "Quem pode solicitar informações com base na Lei nº 12.527/2011?",
+    "respostas": [
+      "Somente cidadãos brasileiros maiores de 18 anos",
+      "Apenas servidores públicos",
+      "Somente advogados e jornalistas",
+      "Qualquer pessoa física ou jurídica"
+    ],
+    "correta": 3,
+    "correcao": "A LAI garante a qualquer pessoa física ou jurídica o direito de solicitar informações públicas, sem necessidade de justificar o pedido. :contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "pergunta": "A Lei de Acesso à Informação aplica-se:",
+    "respostas": [
+      "Somente ao Poder Executivo Federal",
+      "Aos Poderes Executivo, Legislativo e Judiciário, em todas as esferas federativas",
+      "Apenas aos municípios",
+      "Somente às empresas privadas"
+    ],
+    "correta": 1,
+    "correcao": "A LAI aplica-se aos três Poderes da União, Estados, Distrito Federal e Municípios, incluindo Tribunais de Contas e Ministério Público. :contentReference[oaicite:3]{index=3}"
+  },
+  {
+    "pergunta": "Para solicitar uma informação pública com base na LAI, o cidadão:",
+    "respostas": [
+      "Deve apresentar justificativa detalhada",
+      "Precisa comprovar interesse jurídico",
+      "Não precisa apresentar motivo para o pedido",
+      "Necessita de autorização de um órgão de controle"
+    ],
+    "correta": 2,
+    "correcao": "A legislação não exige que o solicitante apresente justificativa para requerer informações públicas. :contentReference[oaicite:4]{index=4}"
+  },
+  {
+    "pergunta": "A divulgação espontânea de informações pelos órgãos públicos, independentemente de solicitação, é denominada:",
+    "respostas": [
+      "Transparência ativa",
+      "Classificação sigilosa",
+      "Controle interno",
+      "Recurso administrativo"
+    ],
+    "correta": 0,
+    "correcao": "A transparência ativa ocorre quando os órgãos públicos divulgam informações de interesse coletivo por iniciativa própria. :contentReference[oaicite:5]{index=5}"
+  },
+  {
+    "pergunta": "Qual das alternativas pode justificar restrição de acesso à informação segundo a LAI?",
+    "respostas": [
+      "Interesse pessoal da autoridade",
+      "Proteção da privacidade e de dados pessoais",
+      "Conveniência administrativa",
+      "Falta de servidores disponíveis"
+    ],
+    "correta": 1,
+    "correcao": "A LAI prevê restrições em casos específicos, incluindo a proteção da privacidade e dos dados pessoais. :contentReference[oaicite:6]{index=6}"
+  },
+  {
+    "pergunta": "De acordo com a LAI, o acesso à informação é, em regra:",
+    "respostas": [
+      "Gratuito",
+      "Pago mediante taxa obrigatória",
+      "Restrito aos residentes do município",
+      "Limitado a documentos digitais"
+    ],
+    "correta": 0,
+    "correcao": "O acesso à informação é gratuito, podendo haver cobrança apenas dos custos de reprodução de documentos, quando aplicável. :contentReference[oaicite:7]{index=7}"
+  },
+  {
+    "pergunta": "Caso um pedido de acesso à informação seja negado, o cidadão:",
+    "respostas": [
+      "Perde definitivamente o direito à informação",
+      "Pode apresentar recurso administrativo",
+      "Deve aguardar um novo exercício financeiro",
+      "Precisa ingressar imediatamente com ação judicial"
+    ],
+    "correta": 1,
+    "correcao": "A Lei de Acesso à Informação assegura ao solicitante o direito de recorrer administrativamente da decisão que negar o acesso. :contentReference[oaicite:8]{index=8}"
+  },
+  {
+    "pergunta": "Qual é o principal objetivo da Lei nº 12.527/2011?",
+    "respostas": [
+      "Regulamentar licitações públicas",
+      "Controlar o orçamento federal",
+      "Garantir transparência e acesso às informações públicas",
+      "Definir regras para concursos públicos"
+    ],
+    "correta": 2,
+    "correcao": "A LAI foi criada para assegurar o direito de acesso às informações públicas, fortalecendo a transparência, o controle social e a participação democrática. :contentReference[oaicite:9]{index=9}"
+  },
+    {
+    "pergunta": "O Decreto Estadual nº 68.155/2023 tem como principal finalidade:",
+    "respostas": [
+      "Instituir a Lei Geral de Proteção de Dados no Estado de São Paulo",
+      "Regulamentar a Lei Federal nº 12.527/2011 no âmbito da Administração Pública Estadual",
+      "Criar o Portal da Transparência do Estado de São Paulo",
+      "Regulamentar os concursos públicos estaduais"
+    ],
+    "correta": 1,
+    "correcao": "O Decreto nº 68.155/2023 regulamenta, no âmbito estadual, a Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), disciplinando os procedimentos de acesso à informação nos órgãos e entidades da Administração Pública Estadual. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "pergunta": "Segundo o Decreto nº 68.155/2023, suas disposições aplicam-se principalmente a:",
+    "respostas": [
+      "Órgãos e entidades da Administração Pública Estadual",
+      "Somente empresas privadas",
+      "Apenas o Poder Judiciário Federal",
+      "Exclusivamente aos municípios paulistas"
+    ],
+    "correta": 0,
+    "correcao": "O decreto disciplina os procedimentos de acesso à informação no âmbito dos órgãos e entidades da Administração Pública do Estado de São Paulo. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "pergunta": "Qual princípio da Lei de Acesso à Informação é reforçado pelo Decreto nº 68.155/2023?",
+    "respostas": [
+      "O sigilo como regra geral",
+      "A publicidade como regra e o sigilo como exceção",
+      "A restrição do acesso às informações públicas",
+      "A divulgação apenas mediante autorização judicial"
+    ],
+    "correta": 1,
+    "correcao": "O decreto regulamenta a LAI, que estabelece a publicidade como regra e o sigilo como exceção na Administração Pública. :contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "pergunta": "O Serviço de Informação ao Cidadão (SIC), previsto no Decreto nº 68.155/2023, tem como objetivo:",
+    "respostas": [
+      "Controlar o acesso dos servidores aos sistemas",
+      "Receber e processar pedidos de acesso à informação",
+      "Fiscalizar contratos administrativos",
+      "Gerenciar concursos públicos"
+    ],
+    "correta": 1,
+    "correcao": "O SIC é o canal destinado ao recebimento, acompanhamento e atendimento dos pedidos de acesso à informação formulados pelos cidadãos. :contentReference[oaicite:3]{index=3}"
+  },
+  {
+    "pergunta": "A divulgação espontânea de informações de interesse coletivo pelos órgãos públicos é denominada:",
+    "respostas": [
+      "Classificação documental",
+      "Transparência passiva",
+      "Transparência ativa",
+      "Controle hierárquico"
+    ],
+    "correta": 2,
+    "correcao": "A transparência ativa consiste na divulgação de informações pelos órgãos públicos independentemente de solicitação do cidadão. :contentReference[oaicite:4]{index=4}"
+  },
+  {
+    "pergunta": "O Decreto nº 68.155/2023 também pode ser aplicado, no que couber, a:",
+    "respostas": [
+      "Empresas privadas sem qualquer vínculo com o Estado",
+      "Entidades privadas que recebam recursos públicos estaduais para atividades de interesse público",
+      "Somente partidos políticos",
+      "Pessoas físicas contratadas temporariamente"
+    ],
+    "correta": 1,
+    "correcao": "O decreto prevê aplicação, quando cabível, às entidades privadas que recebam recursos públicos estaduais para realização de atividades de interesse público. :contentReference[oaicite:5]{index=5}"
+  },
+  {
+    "pergunta": "Entre os temas tratados pelo Decreto nº 68.155/2023 está:",
+    "respostas": [
+      "Segurança da informação e classificação do grau de sigilo",
+      "Código Tributário Estadual",
+      "Licitações internacionais",
+      "Plano de carreira dos docentes"
+    ],
+    "correta": 0,
+    "correcao": "O decreto trata de temas como acesso à informação, segurança da informação, classificação de sigilo e transparência ativa. :contentReference[oaicite:6]{index=6}"
+  },
+  {
+    "pergunta": "Qual estrutura é mencionada no decreto como relacionada à avaliação documental e acesso à informação?",
+    "respostas": [
+      "Comissão de Avaliação de Documentos e Acesso (CADA)",
+      "Tribunal de Contas do Estado",
+      "Conselho Estadual de Educação",
+      "Comissão Permanente de Licitação"
+    ],
+    "correta": 0,
+    "correcao": "O decreto faz referência à Comissão de Avaliação de Documentos e Acesso (CADA), importante para a gestão documental e o acesso às informações. :contentReference[oaicite:7]{index=7}"
+  },
+  {
+    "pergunta": "No contexto do Decreto nº 68.155/2023, informações classificadas são aquelas:",
+    "respostas": [
+      "Disponibilizadas obrigatoriamente em portais públicos",
+      "Que possuem restrição de acesso por razões previstas em lei",
+      "Divulgadas exclusivamente para servidores",
+      "Sem qualquer relevância administrativa"
+    ],
+    "correta": 1,
+    "correcao": "Informações classificadas possuem restrição de acesso devido à necessidade de proteção prevista na legislação aplicável. :contentReference[oaicite:8]{index=8}"
+  },
+  {
+    "pergunta": "O objetivo central do Decreto nº 68.155/2023 é:",
+    "respostas": [
+      "Ampliar a transparência e disciplinar o acesso às informações públicas estaduais",
+      "Restringir a divulgação de informações governamentais",
+      "Substituir a Lei de Acesso à Informação",
+      "Criar novas carreiras para servidores estaduais"
+    ],
+    "correta": 0,
+    "correcao": "O decreto busca garantir transparência, padronizar procedimentos e efetivar o direito de acesso às informações públicas no Estado de São Paulo. :contentReference[oaicite:9]{index=9}"
+  },
+    {
+    "pergunta": "A Deliberação CEETEPS nº 31, de 27/09/2016, aprovou:",
+    "respostas": [
+      "O Estatuto dos Servidores do CEETEPS",
+      "O Plano de Carreiras dos Docentes",
+      "O Regimento das Faculdades de Tecnologia (Fatecs) do CEETEPS",
+      "O Regulamento Disciplinar dos Estudantes"
+    ],
+    "correta": 2,
+    "correcao": "A Deliberação CEETEPS nº 31/2016 aprovou o Regimento das Faculdades de Tecnologia (Fatecs) do Centro Paula Souza, estabelecendo sua organização acadêmica e administrativa. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "pergunta": "A Deliberação CEETEPS nº 31/2016 revogou qual norma anterior relacionada ao regimento das Fatecs?",
+    "respostas": [
+      "Deliberação CEETEPS nº 03/2011",
+      "Deliberação CEETEPS nº 07/2006",
+      "Deliberação CEETEPS nº 44/2018",
+      "Portaria CEETEPS nº 63/2020"
+    ],
+    "correta": 1,
+    "correcao": "A Deliberação CEETEPS nº 31/2016 revogou a Deliberação CEETEPS nº 07/2006, que tratava do regimento anterior das Fatecs. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "pergunta": "De acordo com o Regimento das Fatecs, quem é o presidente nato da Congregação?",
+    "respostas": [
+      "Vice-Diretor",
+      "Coordenador de Curso",
+      "Diretor",
+      "Representante Discente"
+    ],
+    "correta": 2,
+    "correcao": "O Regimento estabelece que o Diretor da Fatec é o presidente nato da Congregação, principal órgão colegiado da unidade. :contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "pergunta": "A Congregação de uma Fatec possui atribuições relacionadas a:",
+    "respostas": [
+      "Aprovação de planos e relatórios de gestão da unidade",
+      "Fiscalização tributária estadual",
+      "Gestão das escolas municipais",
+      "Elaboração do orçamento estadual"
+    ],
+    "correta": 0,
+    "correcao": "Entre suas atribuições estão a aprovação do Plano e do Relatório Anual de Gestão, bem como do Calendário Escolar da unidade. :contentReference[oaicite:3]{index=3}"
+  },
+  {
+    "pergunta": "Segundo o Regimento das Fatecs, a representação discente na Congregação é eleita por seus pares para mandato de:",
+    "respostas": [
+      "6 meses",
+      "1 ano",
+      "2 anos",
+      "4 anos"
+    ],
+    "correta": 1,
+    "correcao": "Os representantes discentes e seus suplentes são eleitos por seus pares para mandato de um ano. :contentReference[oaicite:4]{index=4}"
+  },
+  {
+    "pergunta": "A representação docente na Congregação deve corresponder, no mínimo, a:",
+    "respostas": [
+      "30% dos assentos",
+      "50% dos assentos",
+      "70% dos assentos",
+      "100% dos assentos"
+    ],
+    "correta": 2,
+    "correcao": "O Regimento estabelece que a representação docente deve ocupar pelo menos 70% dos assentos da Congregação. :contentReference[oaicite:5]{index=5}"
+  },
+  {
+    "pergunta": "Entre as finalidades das Fatecs previstas no Regimento está:",
+    "respostas": [
+      "Oferecer exclusivamente cursos de pós-graduação",
+      "Ministrar cursos de graduação tecnológica e promover pesquisa e extensão",
+      "Atuar apenas na formação de servidores públicos",
+      "Oferecer apenas cursos de educação básica"
+    ],
+    "correta": 1,
+    "correcao": "As Fatecs desenvolvem atividades de ensino, pesquisa e extensão, com destaque para os cursos superiores de tecnologia. :contentReference[oaicite:6]{index=6}"
+  },
+  {
+    "pergunta": "Qual órgão colegiado é considerado um dos principais responsáveis pelas decisões acadêmicas e administrativas da Fatec?",
+    "respostas": [
+      "Congregação",
+      "Tribunal de Contas",
+      "Conselho Estadual de Educação",
+      "Assembleia Legislativa"
+    ],
+    "correta": 0,
+    "correcao": "A Congregação é um importante órgão deliberativo responsável por diversas decisões acadêmicas e administrativas da unidade. :contentReference[oaicite:7]{index=7}"
+  },
+  {
+    "pergunta": "As Deliberações CEETEPS nº 44/2018 e nº 63/2020 tiveram como objetivo principal:",
+    "respostas": [
+      "Revogar integralmente o Regimento das Fatecs",
+      "Alterar e atualizar dispositivos da Deliberação CEETEPS nº 31/2016",
+      "Criar novas Fatecs no Estado",
+      "Instituir o Plano de Carreiras do CEETEPS"
+    ],
+    "correta": 1,
+    "correcao": "As Deliberações nº 44/2018 e nº 63/2020 promoveram alterações e atualizações no Regimento aprovado pela Deliberação nº 31/2016. :contentReference[oaicite:8]{index=8}"
+  },
+  {
+    "pergunta": "O Regimento das Fatecs disciplina principalmente:",
+    "respostas": [
+      "A organização acadêmica, administrativa e colegiada das Faculdades de Tecnologia",
+      "A gestão financeira do Estado de São Paulo",
+      "Os direitos trabalhistas dos servidores estaduais",
+      "O processo licitatório das autarquias estaduais"
+    ],
+    "correta": 0,
+    "correcao": "O Regimento estabelece normas sobre estrutura administrativa, órgãos colegiados, cursos, ensino, pesquisa e extensão das Fatecs. :contentReference[oaicite:9]{index=9}"
   }
+  
+
 ]
