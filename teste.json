@@ -1,0 +1,23 @@
+[
+  {
+    "pergunta": "Qual é a capital do Brasil?",
+    "respostas": [
+      "São Paulo",
+      "Rio de Janeiro",
+      "Brasília",
+      "Salvador"
+    ],
+    "correta": 2,
+    "correcao": "Brasília foi inaugurada em 1960 pelo presidente Juscelino Kubitschek e é a capital federal."
+  },
+  {
+    "pergunta": "O que significa a sigla HTML?",
+    "respostas": [
+      "Hyper Text Markup Language",
+      "High Tech Modern Language",
+      "Hyperlink Text Management Language"
+    ],
+    "correta": 0,
+    "correcao": "HTML é a linguagem de marcação padrão para criar páginas web."
+  }
+]
