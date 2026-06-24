@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado Dinâmico</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .opcoes .list-group-item { cursor: pointer; transition: background 0.2s; }
+        .opcoes .list-group-item:hover { background-color: #f8f9fa; }
+    </style>
+</head>
+<body class="bg-light">
+
+    <div class="container my-5" style="max-width: 800px;">
+        <div class="text-center mb-4">
+            <h1 class="fw-bold">Simulado</h1>
+            <p class="text-muted" id="status-progresso">Carregando questões...</p>
+        </div>
+
+        <div id="tela-erro" class="alert alert-danger d-none" role="alert">
+            Nenhuma fonte de questões válida foi encontrada. Certifique-se de passar o parâmetro <code>?fonte=URL_DO_JSON</code> na URL.
+        </div>
+
+        <div id="area-quiz" class="d-none">
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-primary text-white fw-bold" id="card-titulo-pergunta">
+                    Questão
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title mb-4" id="texto-pergunta">Texto da pergunta aqui?</h5>
+                    
+                    <div class="list-group opcoes" id="container-respostas">
+                        </div>
+                </div>
+            </div>
+
+            <div id="feedback" class="card d-none mb-4">
+                <div class="card-body">
+                    <h5 class="fw-bold" id="feedback-titulo">Resultado</h5>
+                    <p id="feedback-texto" class="mb-0"></p>
+                </div>
+                <div class="card-footer bg-light" id="feedback-correcao">
+                    </div>
+            </div>
+
+            <div class="d-flex justify-content-end">
+                <button id="btn-proxima" class="btn btn-success d-none" onclick="proximaQuestao()">Avançar</button>
+            </div>
+        </div>
+
+        <div id="tela-fim" class="card shadow-sm d-none text-center p-5">
+            <h2 class="text-success fw-bold mb-3">Simulado Concluído!</h2>
+            <p class="fs-4" id="resultado-final"></p>
+            <button class="btn btn-primary mx-auto" onclick="location.reload()" style="max-width: 200px;">Reiniciar</button>
+        </div>
+    </div>
+
+    <script>
+        // Variáveis de estado do Quiz
+        let questoes = [];
+        let indiceAtual = 0;
+        let acertos = 0;
+        let respondida = false;
+
+        // 1. Captura o parâmetro 'fonte' da URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const urlJson = urlParams.get('fonte');
+
+        if (urlJson) {
+            carregarQuestoes(urlJson);
+        } else {
+            document.getElementById('tela-erro').classList.remove('d-none');
+            document.getElementById('status-progresso').textContent = "Erro de configuração.";
+        }
+
+        // 2. Busca o JSON do GitHub/Servidor
+        async function carregarQuestoes(url) {
+            try {
+                const resposta = await fetch(url);
+                if (!resposta.ok) throw new Error("Erro ao carregar o arquivo.");
+                questoes = await resposta.json();
+                
+                if (questoes.length > 0) {
+                    document.getElementById('area-quiz').classList.remove('d-none');
+                    mostrarQuestao();
+                } else {
+                    throw new Error("O JSON está vazio.");
+                }
+            } catch (erro) {
+                const divErro = document.getElementById('tela-erro');
+                divErro.textContent = `Erro ao carregar simulado: ${erro.message}`;
+                divErro.classList.remove('d-none');
+                document.getElementById('status-progresso').textContent = "Falha no carregamento.";
+            }
+        }
+
+        // 3. Renderiza a questão atual
+        function mostrarQuestao() {
+            respondida = false;
+            document.getElementById('btn-proxima').classList.add('d-none');
+            document.getElementById('feedback').classList.add('d-none');
+            
+            const q = questoes[indiceAtual];
+            
+            // Atualiza cabeçalhos e textos
+            document.getElementById('status-progresso').textContent = `Questão ${indiceAtual + 1} de ${questoes.length}`;
+            document.getElementById('card-titulo-pergunta').textContent = `Questão ${indiceAtual + 1}`;
+            document.getElementById('texto-pergunta').textContent = q.pergunta;
+
+            // Renderiza as alternativas
+            const container = document.getElementById('container-respostas');
+            container.innerHTML = '';
+
+            q.respostas.forEach((resposta, index) => {
+                const btn = document.createElement('button');
+                btn.className = "list-group-item list-group-item-action text-start";
+                btn.textContent = resposta;
+                btn.onclick = () => verificarResposta(index, btn);
+                container.appendChild(btn);
+            });
+        }
+
+        // 4. Valida a resposta do usuário
+        function verificarResposta(indiceSelecionado, elementoClicado) {
+            if (respondida) return; // Evita múltiplos cliques
+            respondida = true;
+
+            const q = questoes[indiceAtual];
+            const container = document.getElementById('container-respostas');
+            const alternativas = container.children;
+
+            // Desabilita novos cliques visuais
+            for (let item of alternativas) {
+                item.classList.add('disabled');
+            }
+
+            const feedbackCard = document.getElementById('feedback');
+            const feedbackTitulo = document.getElementById('feedback-titulo');
+            const feedbackTexto = document.getElementById('feedback-texto');
+            const feedbackCorrecao = document.getElementById('feedback-correcao');
+
+            // Verifica acerto/erro
+            if (indiceSelecionado === q.correta) {
+                acertos++;
+                elementoClicado.classList.add('list-group-item-success', 'fw-bold');
+                feedbackCard.className = "card mb-4 border-success";
+                feedbackTitulo.className = "fw-bold text-success";
+                feedbackTitulo.textContent = "Você acertou! 🎉";
+            } else {
+                elementoClicado.classList.add('list-group-item-danger');
+                alternativas[q.correta].classList.add('list-group-item-success', 'fw-bold'); // Mostra a certa
+                feedbackCard.className = "card mb-4 border-danger";
+                feedbackTitulo.className = "fw-bold text-danger";
+                feedbackTitulo.textContent = "Você errou. ❌";
+            }
+
+            // Exibe a correção obrigatória
+            feedbackTexto.innerHTML = `<strong>Sua resposta:</strong> ${q.respostas[indiceSelecionado]}<br><strong>Resposta correta:</strong> ${q.respostas[q.correta]}`;
+            feedbackCorrecao.innerHTML = `<strong>Explicação/Correção:</strong> ${q.correcao}`;
+            feedbackCard.classList.remove('d-none');
+
+            // Mostra o botão de avançar
+            document.getElementById('btn-proxima').classList.remove('d-none');
+        }
+
+        // 5. Avança ou finaliza o simulado
+        function proximaQuestao() {
+            indiceAtual++;
+            if (indiceAtual < questoes.length) {
+                mostrarQuestao();
+            } else {
+                finalizarSimulado();
+            }
+        }
+
+        // 6. Tela de resultados
+        function finalizarSimulado() {
+            document.getElementById('area-quiz').classList.add('d-none');
+            document.getElementById('status-progresso').textContent = "Fim do Simulado";
+            
+            const telaFim = document.getElementById('tela-fim');
+            const txtResultado = document.getElementById('resultado-final');
+            
+            const porcentagem = Math.round((acertos / questoes.length) * 100);
+            txtResultado.innerHTML = `Você acertou <strong>${acertos}</strong> de <strong>${questoes.length}</strong> questões.<br><span class="badge bg-secondary fs-5 mt-2">${porcentagem}% de aproveitamento</span>`;
+            
+            telaFim.classList.remove('d-none');
+        }
+    </script>
+</body>
+</html>
